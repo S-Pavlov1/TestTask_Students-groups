@@ -1,8 +1,8 @@
-package controllers;
+package com.testTask.controllers;
 
-import models.Groups;
+import com.testTask.models.Groups;
 import org.springframework.web.bind.annotation.*;
-import services.GroupsService;
+import com.testTask.services.GroupsService;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import java.util.List;
 @RequestMapping("/Groups")
 public class GroupsController {
 
-    private GroupsService service;
+   private GroupsService service;
 
     @GetMapping("")
     public List<Groups> getEntities() {
