@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driverClassName:  com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db_testtask
+    username: root
+    password: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL55Dialect
+    hibernate:
+      ddl-auto: update
+

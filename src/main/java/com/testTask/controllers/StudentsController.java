@@ -1,8 +1,8 @@
-package controllers;
+package com.testTask.controllers;
 
-import models.Students;
+import com.testTask.models.Students;
 import org.springframework.web.bind.annotation.*;
-import services.StudentsService;
+import com.testTask.services.StudentsService;
 
 import java.util.List;
 

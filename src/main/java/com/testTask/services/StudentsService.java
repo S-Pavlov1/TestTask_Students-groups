@@ -1,9 +1,8 @@
-package services;
+package com.testTask.services;
 
-import models.Students;
+import com.testTask.models.Students;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import repositories.StudentsRepository;
+import com.testTask.repositories.StudentsRepository;
 
 import java.util.List;
 

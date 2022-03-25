@@ -1,4 +1,4 @@
-package models;
+package com.testTask.models;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -14,12 +14,12 @@ public class Students {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer id;
+    private Integer student_id;
 
     private String fullName;
     private Date acceptanceDate;
 
     @ManyToOne
-    @JoinColumn(name = "groupId", referencedColumnName = "id")
-    private Groups groupId;
+    @JoinColumn(name = "groupId", referencedColumnName = "group_id")
+    private Groups group;
 }

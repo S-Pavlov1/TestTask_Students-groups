@@ -1,8 +1,8 @@
-package services;
+package com.testTask.services;
 
-import models.Groups;
+import com.testTask.models.Groups;
 import org.springframework.stereotype.Service;
-import repositories.GroupsRepository;
+import com.testTask.repositories.GroupsRepository;
 
 import java.util.List;
 

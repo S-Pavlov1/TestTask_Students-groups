@@ -1,6 +1,6 @@
-package repositories;
+package com.testTask.repositories;
 
-import models.Groups;
+import com.testTask.models.Groups;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
