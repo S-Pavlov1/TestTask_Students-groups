@@ -13,8 +13,9 @@ public class Groups {
 
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-    private Integer group_id;
+    private Integer id;
 
+    @Column(nullable = false)
     private String number;
     private Integer studentsCount;
 

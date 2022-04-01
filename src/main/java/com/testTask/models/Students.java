@@ -20,6 +20,6 @@ public class Students {
     private Date acceptanceDate;
 
     @ManyToOne
-    @JoinColumn(name = "groupId", referencedColumnName = "group_id")
+    @JoinColumn(name = "groupId", referencedColumnName = "id")
     private Groups group;
 }
